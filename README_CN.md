@@ -8,7 +8,7 @@
 
 ## 刷入 Twrp
 
-将 recovery.img 放进 Odin 的 AP 槽中，连接手机刷入即可。在 Linux 环境下也可使用 odin 程序的命令：
+将 recovery.img 放进 Odin 的 AP 槽中，连接手机进入**下载模式**刷入即可。在 Linux 环境下也可使用 odin 程序的命令：
 
 ```
 ./odin4 -a recovery.img

@@ -18,7 +18,7 @@
 
 1. 同步源代码
 
-可以更换清华大学的 [git-repo](https://mirror.tuna.tsinghua.edu.cn/help/git-repo/) 加快下载源码速度。下载和展开后需要至少28GB的硬盘空间。
+可以更换清华大学的 [git-repo](https://mirror.tuna.tsinghua.edu.cn/help/git-repo/) 加快源码下载速度。下载和展开后需要至少28GB的硬盘空间。
 
 ```
 repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0

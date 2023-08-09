@@ -32,7 +32,7 @@ TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := generic
+TARGET_2ND_CPU_VARIANT := cortex-a73
 TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
@@ -40,7 +40,7 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_OTA_ASSERT_DEVICE := a60q
 
 # Bootloader"
-TARGET_BOOTLOADER_BOARD_NAME := RILRL28A003
+TARGET_BOOTLOADER_BOARD_NAME := sm6150
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -90,8 +90,9 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-## TWRP Configuration from a70q
+# TWRP Configuration from a70q
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone18/temp"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 180
+TARGET_RECOVERY_QCOM_RTC_FIX := true
